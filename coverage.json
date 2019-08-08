@@ -1,0 +1,157 @@
+{
+  "ClassLibrary1.dll": {
+    "C:\\Users\\lramos\\source\\poc\\TestCoverageFrameworks\\ClassLibrary1\\Domain\\Catalog.cs": {
+      "ClassLibrary1.Domain.Catalog": {
+        "System.Int32 ClassLibrary1.Domain.Catalog::get_Id()": {
+          "Lines": {
+            "23": 1
+          },
+          "Branches": []
+        },
+        "System.String ClassLibrary1.Domain.Catalog::get_Title()": {
+          "Lines": {
+            "25": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<ClassLibrary1.Domain.CatalogItem> ClassLibrary1.Domain.Catalog::get_Items()": {
+          "Lines": {
+            "26": 1
+          },
+          "Branches": []
+        },
+        "ClassLibrary2.Product ClassLibrary1.Domain.Catalog::get_MainProduct()": {
+          "Lines": {
+            "27": 2
+          },
+          "Branches": []
+        },
+        "System.Void ClassLibrary1.Domain.Catalog::.ctor(System.Int32,System.String,System.Collections.Generic.List`1<ClassLibrary1.Domain.CatalogItem>,ClassLibrary2.Product)": {
+          "Lines": {
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 0,
+            "15": 3,
+            "16": 0,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 14,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 15,
+              "Offset": 30,
+              "EndOffset": 32,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 30,
+              "EndOffset": 38,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 20,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 20,
+              "Offset": 55,
+              "EndOffset": 63,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\lramos\\source\\poc\\TestCoverageFrameworks\\ClassLibrary1\\Domain\\CatalogItem.cs": {
+      "ClassLibrary1.Domain.CatalogItem": {
+        "System.Int32 ClassLibrary1.Domain.CatalogItem::get_Id()": {
+          "Lines": {
+            "10": 1
+          },
+          "Branches": []
+        },
+        "System.String ClassLibrary1.Domain.CatalogItem::get_Title()": {
+          "Lines": {
+            "11": 1
+          },
+          "Branches": []
+        },
+        "System.Void ClassLibrary1.Domain.CatalogItem::.ctor(System.Int32,System.String)": {
+          "Lines": {
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "ClassLibrary2.dll": {
+    "C:\\Users\\lramos\\source\\poc\\TestCoverageFrameworks\\ClassLibrary2\\Product.cs": {
+      "ClassLibrary2.Product": {
+        "System.Int32 ClassLibrary2.Product::get_Id()": {
+          "Lines": {
+            "13": 1
+          },
+          "Branches": []
+        },
+        "System.String ClassLibrary2.Product::get_Title()": {
+          "Lines": {
+            "14": 1
+          },
+          "Branches": []
+        },
+        "System.String ClassLibrary2.Product::get_Description()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.Void ClassLibrary2.Product::.ctor(System.Int32,System.String)": {
+          "Lines": {
+            "7": 3,
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
