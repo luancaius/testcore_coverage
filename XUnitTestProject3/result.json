@@ -4,24 +4,24 @@
       "ClassLibrary1.Domain.Catalog": {
         "System.Int32 ClassLibrary1.Domain.Catalog::get_Id()": {
           "Lines": {
-            "25": 38
+            "25": 4
           },
           "Branches": []
         },
         "System.String ClassLibrary1.Domain.Catalog::get_Title()": {
           "Lines": {
-            "26": 38
+            "26": 4
           },
           "Branches": []
         },
         "System.Void ClassLibrary1.Domain.Catalog::.ctor(System.Int32)": {
           "Lines": {
-            "8": 2,
-            "9": 2,
-            "10": 2,
+            "8": 0,
+            "9": 0,
+            "10": 0,
             "11": 0,
-            "12": 2,
-            "13": 2
+            "12": 0,
+            "13": 0
           },
           "Branches": [
             {
@@ -38,26 +38,26 @@
               "EndOffset": 22,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 2
+              "Hits": 0
             }
           ]
         },
         "System.Void ClassLibrary1.Domain.Catalog::.ctor(System.String)": {
           "Lines": {
-            "15": 2,
-            "16": 2,
-            "17": 2,
-            "18": 2
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
           },
           "Branches": []
         },
         "System.Void ClassLibrary1.Domain.Catalog::.ctor(System.Int32,System.String)": {
           "Lines": {
-            "20": 36,
-            "21": 36,
-            "22": 36,
-            "23": 36,
-            "24": 36
+            "20": 4,
+            "21": 4,
+            "22": 4,
+            "23": 4,
+            "24": 4
           },
           "Branches": []
         }
@@ -69,24 +69,24 @@
       "ClassLibrary2.Product": {
         "System.Int32 ClassLibrary2.Product::get_Id()": {
           "Lines": {
-            "24": 38
+            "24": 4
           },
           "Branches": []
         },
         "System.String ClassLibrary2.Product::get_Title()": {
           "Lines": {
-            "25": 38
+            "25": 4
           },
           "Branches": []
         },
         "System.Void ClassLibrary2.Product::.ctor(System.Int32)": {
           "Lines": {
-            "7": 2,
-            "8": 2,
-            "9": 2,
+            "7": 0,
+            "8": 0,
+            "9": 0,
             "10": 0,
-            "11": 2,
-            "12": 2
+            "11": 0,
+            "12": 0
           },
           "Branches": [
             {
@@ -103,26 +103,26 @@
               "EndOffset": 22,
               "Path": 1,
               "Ordinal": 1,
-              "Hits": 2
+              "Hits": 0
             }
           ]
         },
         "System.Void ClassLibrary2.Product::.ctor(System.String)": {
           "Lines": {
-            "14": 2,
-            "15": 2,
-            "16": 2,
-            "17": 2
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
           },
           "Branches": []
         },
         "System.Void ClassLibrary2.Product::.ctor(System.Int32,System.String)": {
           "Lines": {
-            "19": 36,
-            "20": 36,
-            "21": 36,
-            "22": 36,
-            "23": 36
+            "19": 4,
+            "20": 4,
+            "21": 4,
+            "22": 4,
+            "23": 4
           },
           "Branches": []
         }

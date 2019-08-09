@@ -1,10 +1,14 @@
 ﻿
+using System;
+
 namespace ClassLibrary1.Domain
 {
     public class Catalog
     {
         public Catalog(int id)
         {
+            if (id == 0)
+                throw new Exception();
             Id = id;
         }
 

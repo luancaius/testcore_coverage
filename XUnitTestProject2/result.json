@@ -1,0 +1,67 @@
+{
+  "ClassLibrary2.dll": {
+    "C:\\Users\\lramos\\source\\poc\\testcore_coverage\\ClassLibrary2\\Product.cs": {
+      "ClassLibrary2.Product": {
+        "System.Int32 ClassLibrary2.Product::get_Id()": {
+          "Lines": {
+            "24": 4
+          },
+          "Branches": []
+        },
+        "System.String ClassLibrary2.Product::get_Title()": {
+          "Lines": {
+            "25": 4
+          },
+          "Branches": []
+        },
+        "System.Void ClassLibrary2.Product::.ctor(System.Int32)": {
+          "Lines": {
+            "7": 4,
+            "8": 4,
+            "9": 4,
+            "10": 0,
+            "11": 4,
+            "12": 4
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 14,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Void ClassLibrary2.Product::.ctor(System.String)": {
+          "Lines": {
+            "14": 4,
+            "15": 4,
+            "16": 4,
+            "17": 4
+          },
+          "Branches": []
+        },
+        "System.Void ClassLibrary2.Product::.ctor(System.Int32,System.String)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}

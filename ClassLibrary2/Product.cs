@@ -6,6 +6,8 @@ namespace ClassLibrary2
     {
         public Product(int id)
         {
+            if (id == 0)
+                throw new Exception();
             Id = id;
         }
 
