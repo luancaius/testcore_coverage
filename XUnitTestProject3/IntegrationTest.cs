@@ -13,9 +13,20 @@ namespace XUnitTestProject3
             var id = 1;
             var title = "Test1";
 
-            var product = new Product(id, title);
-            var catalog = new Catalog(id, title, null, product);
-            Assert.NotNull(catalog.MainProduct);
+            var catalog = new Catalog(id, title);
+            Assert.Equal(title, catalog.Title);
+            Assert.Equal(id, catalog.Id);
+        }
+
+        [Fact]
+        public void CatalogAndProduct_Test2()
+        {
+            var id = 1;
+            var title = "Test1";
+
+            var catalog = new Product(id, title);
+            Assert.Equal(title, catalog.Title);
+            Assert.Equal(id, catalog.Id);
         }
     }
 }

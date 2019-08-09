@@ -4,17 +4,22 @@ using Xunit;
 
 namespace XUnitTestProject2
 {
-    public class UnitTest1
+    public class ProductTest
     {
         [Fact]
         public void Product_domain()
         {
             var id = 1;
-            var title = "Test1";
+            var catalog = new Product(id);
+            Assert.Equal(id, catalog.Id);
+        }
 
-            var product = new Product(id, title);
-            Assert.Equal(title, product.Title);
-            Assert.Equal(id, product.Id);
+        [Fact]
+        public void Product_domain2()
+        {
+            var title = "Something";
+            var catalog = new Product(title);
+            Assert.Equal(title, catalog.Title);
         }
     }
 }

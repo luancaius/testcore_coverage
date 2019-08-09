@@ -11,23 +11,16 @@ namespace XUnitTestProject1
         public void Catalog_domain()
         {
             var id = 1;
-            var title = "Test1";
-
-            var catalog = new Catalog(id, title, null);
-            Assert.Equal(title, catalog.Title);
+            var catalog = new Catalog(id);
             Assert.Equal(id, catalog.Id);
-            Assert.Equal(new List<CatalogItem>(), catalog.Items);
         }
 
         [Fact]
-        public void CatalogItem_domain()
+        public void Catalog_domain2()
         {
-            var id = 1;
-            var title = "Test1";
-
-            var catalogItem = new CatalogItem(id, title);
-            Assert.Equal(title, catalogItem.Title);
-            Assert.Equal(id, catalogItem.Id);
+            var title = "Something";
+            var catalog = new Catalog(title);
+            Assert.Equal(title, catalog.Title);
         }
     }
 }

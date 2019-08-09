@@ -1,20 +1,19 @@
-﻿using System;
-
-namespace ClassLibrary2
+﻿
+namespace ClassLibrary1.Domain
 {
-    public class Product
+    public class Catalog
     {
-        public Product(int id)
+        public Catalog(int id)
         {
             Id = id;
         }
 
-        public Product(string title)
+        public Catalog(string title)
         {
             Title = title;
         }
 
-        public Product(int id, string title)
+        public Catalog(int id, string title)
         {
             Id = id;
             Title = title;
