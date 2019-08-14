@@ -1,0 +1,43 @@
+Test run for C:\Users\lramos\source\poc\testcore_coverage\XUnitTestProject3\bin\Debug\netcoreapp2.2\XUnitTestProject3.dll(.NETCoreApp,Version=v2.2)
+Microsoft (R) Test Execution Command Line Tool Version 16.2.0-preview-20190606-02
+Copyright (c) Microsoft Corporation.  All rights reserved.
+Starting test execution, please wait...
+Test run for C:\Users\lramos\source\poc\testcore_coverage\XUnitTestProject1\bin\Debug\netcoreapp2.2\XUnitTestProject1.dll(.NETCoreApp,Version=v2.2)
+Test run for C:\Users\lramos\source\poc\testcore_coverage\XUnitTestProject2\bin\Debug\netcoreapp2.2\XUnitTestProject2.dll(.NETCoreApp,Version=v2.2)
+Microsoft (R) Test Execution Command Line Tool Version 16.2.0-preview-20190606-02
+Copyright (c) Microsoft Corporation.  All rights reserved.
+Microsoft (R) Test Execution Command Line Tool Version 16.2.0-preview-20190606-02
+Copyright (c) Microsoft Corporation.  All rights reserved.
+Starting test execution, please wait...
+Starting test execution, please wait...
+Test Run Successful.
+Total tests: 2
+     Passed: 2
+ Total time: 1.2827 Seconds
+Test Run Successful.
+Total tests: 2
+     Passed: 2
+ Total time: 1.2349 Seconds
+Test Run Successful.
+Total tests: 2
+     Passed: 2
+ Total time: 1.2329 Seconds
+
+Calculating coverage result...
+  Generating report 'C:\Users\lramos\source\poc\testcore_coverage\coverage.opencover.xml'
++---------------+--------+--------+--------+
+| Module        | Line   | Branch | Method |
++---------------+--------+--------+--------+
+| ClassLibrary1 | 94.11% | 50%    | 100%   |
++---------------+--------+--------+--------+
+| ClassLibrary2 | 94.11% | 50%    | 100%   |
++---------------+--------+--------+--------+
+
++---------+---------+--------+--------+
+|         | Line    | Branch | Method |
++---------+---------+--------+--------+
+| Total   | 94.11%  | 50%    | 100%   |
++---------+---------+--------+--------+
+| Average | 47.055% | 25%    | 50%    |
++---------+---------+--------+--------+
+
