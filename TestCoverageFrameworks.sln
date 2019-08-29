@@ -7,11 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary1", "ClassLibra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{C8D8CD3E-8E07-4209-84E1-128C9915F727}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary2", "ClassLibrary2\ClassLibrary2.csproj", "{CBC2BE0E-92C7-44CA-B616-ABDE1E53641B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassLibrary2", "ClassLibrary2\ClassLibrary2.csproj", "{CBC2BE0E-92C7-44CA-B616-ABDE1E53641B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject2", "XUnitTestProject2\XUnitTestProject2.csproj", "{949F66B0-8A2C-425A-880D-7C95872507D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject2", "XUnitTestProject2\XUnitTestProject2.csproj", "{949F66B0-8A2C-425A-880D-7C95872507D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject3", "XUnitTestProject3\XUnitTestProject3.csproj", "{2A1802A1-2E2D-4114-A637-2D9D76A858E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTestProject3", "XUnitTestProject3\XUnitTestProject3.csproj", "{2A1802A1-2E2D-4114-A637-2D9D76A858E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41429DA7-6F67-4E86-AD50-D02BF594A7AF}"
+	ProjectSection(SolutionItems) = preProject
+		Appveyor.yml = Appveyor.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
