@@ -8,6 +8,8 @@ namespace ClassLibrary2
         {
             if (id == 0)
                 throw new Exception();
+            if(id < 0)
+                throw new Exception();
             Id = id;
         }
 

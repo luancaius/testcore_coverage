@@ -9,6 +9,8 @@ namespace ClassLibrary1.Domain
         {
             if (id == 0)
                 throw new Exception();
+            if (id < 0)
+                throw new Exception();
             Id = id;
         }
 
@@ -17,12 +19,14 @@ namespace ClassLibrary1.Domain
             Title = title;
         }
 
-        public Catalog(int id, string title)
+        public Catalog(int id, string title, string description = null)
         {
             Id = id;
             Title = title;
+            Description = description;
         }
         public int Id { get; }
         public string Title { get; }
+        public string Description { get; }
     }
 }
